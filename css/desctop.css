@@ -130,15 +130,14 @@
   /* and (max-width: 1900px) */
 
 body {
-  width: 1510px;
+  
   }
   
 .contaiter_all {
- 
+  width: 1510px;
+  margin: 0 auto;
 }
-.contaiter_in {
-  
-}
+
 
 header {
   height: 747px;
@@ -217,6 +216,10 @@ nav li.fones:active {
 
 li.fones a:active {
   color: #e71414
+}
+
+.buffer {
+  position: relative;
 }
 
 .logo1 {
@@ -307,8 +310,6 @@ background: url(../img/table.jpg);
 position: absolute;
 width: 1510px;
 height: 747px;
-left: 0px;
-top: 0px;
 z-index: -1;
 }
 
@@ -386,8 +387,21 @@ main {
 
 .second_section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-left: -170px;
+  grid-template-columns: repeat(4, 378px);
+  grid-template-rows: repeat(2, 339px);
+  grid-gap: 2px;
+  margin-left: -174px;
+}
+
+
+.second_section .work_box {
+  overflow: hidden;
+}
+
+.second_section .work_box div{
+  transform: scale(1.01);
+  width: 100%;
+  height: 100%;
 }
 
 .sector3 {
@@ -403,7 +417,7 @@ transition-delay: 0.2s;
 }
 
 .ones {
-  background-image: url(../img/work_1.jpg);
+  background-image: url(../img/8/work_1.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -430,7 +444,7 @@ transition-delay: 0.2s;
 }
 
 .twos {
-  background-image: url(../img/work_2.jpg);
+  background-image: url(..//img/8/work_2.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -456,7 +470,7 @@ transition-delay: 0.2s;
 }
 
 .trees {
-  background-image: url(../img/work_3.jpg);
+  background-image: url(../img/8/Rectangle\ 17.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -482,7 +496,7 @@ transition-delay: 0.2s;
 }
 
 .fours {
-  background-image: url(../img/work_4.jpg);
+  background-image: url(../img/8/work_4.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -508,7 +522,7 @@ transition-delay: 0.2s;
 }
 
 .fives {
-  background-image: url(../img/work_5.jpg);
+  background-image: url(../img/8/work_5.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -534,7 +548,7 @@ transition-delay: 0.2s;
 }
 
 .sixs {
-  background-image: url(../img/work_6.jpg);
+  background-image: url(../img/8/work_6.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -560,7 +574,7 @@ transition-delay: 0.2s;
 }
 
 .sevets {
-  background-image: url(../img/work_7.jpg);
+  background-image: url(../img/8/work_7.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -586,7 +600,7 @@ transition-delay: 0.2s;
 }
 
 .eights {
-  background-image: url(../img/work_8.jpg);
+  background-image: url(../img/8/work_8.svg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
