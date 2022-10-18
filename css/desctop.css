@@ -448,6 +448,7 @@ transition-delay: 0.2s;
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
 .twos::after {
   content: 'Project Name';
   text-transform: uppercase;
@@ -654,6 +655,7 @@ h5.backfon {
   margin-top: 114px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 15px;
 }
 
 .sector4 {
@@ -665,13 +667,15 @@ h5.backfon {
   margin-top: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 15px;
+  grid-column-gap: 15px;
 }
 
 #one {
   font-size: 24px;
   font-family:'Raleway';
   font-weight: 700;
+  
+  margin-bottom: 0px;
 }
 
 #two {
@@ -684,24 +688,30 @@ h5.backfon {
 }
 
 #tree {
-  margin-top: 17.86px;
+  /* margin-top: 17.86px; */
   font-size: 18px;
   font-family:'Raleway';
   font-weight: 400;
   color: #6C7279;
-  width: 270px;
-  height: 168px;
+  margin-bottom: 0rem;
+  line-height: 21.13px;
 }
+
 
 .link {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;  
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-column-gap: 15px;
 }
 
 .links1, .links2, .links3, .links4 {
   display: flex;
   justify-content: start;
-  margin-top: 37.86px;
+  margin-top: 37.86px; 
+}
+
+#alt1 {
+  margin-right: 5px;
 }
 
 .slide {
