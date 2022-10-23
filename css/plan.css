@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 1024px) and (min-width: 321px){} */
+ /* @media screen and (max-width: 1024px) and (min-width: 321px){
 
 .contaiter_all {
     width: 1024px;
@@ -746,8 +746,6 @@ h5.backfon {
 
     
     .fblock {
-      /* width: 1024px ; */
-      
       display: flex;
       flex-direction: row;
     }
@@ -775,7 +773,6 @@ h5.backfon {
       font-size: 14px;
       text-transform: capitalize;
       width: 100%;
-      /* margin-top: 15.58px; */
       color: white;
       text-align: center;
       line-height: 16.44px;
@@ -835,3 +832,10 @@ h5.backfon {
       align-items: center;
       background-image: url(../img/plan/bg\ \(4\).svg);
     }
+    
+
+
+
+
+
+  } */
