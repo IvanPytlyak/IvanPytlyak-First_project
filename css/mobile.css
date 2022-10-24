@@ -215,8 +215,6 @@ p.headers {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    border: 1px solid black;
 }
   
 .block_f {
@@ -224,7 +222,6 @@ p.headers {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
   
 .block_t {
@@ -233,22 +230,17 @@ p.headers {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
-    
 }
   
 .s1, .s2, .s3, .s4, .s5, .s6 {
     width: 320px;
     margin-top: 40px;
-    
-    
 }
   
 .pic1 {
     width: 75.75px;
     height: 75.75px;
     margin-left: 122.5px;
-    /* margin-bottom: 65px; */
 }
 
 
@@ -272,6 +264,7 @@ p.headers {
     font-size: 14px;
     line-height: 16.44px;
     margin-left: 20px;
+    margin-bottom: 0px;
 }
 
 #sect1img, #sect2img, #sect3img, #sect4img, #sect5img, #sect6img{
@@ -281,3 +274,368 @@ height: 96%;
 
 
 
+
+
+
+
+
+.second_section {
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    grid-template-rows: repeat(4, 144px);
+    grid-gap: 2px;
+    margin: 34px 0 0 0;
+  }
+  
+  
+  .second_section .work_box {
+    overflow: hidden;
+  }
+  
+  .second_section .work_box div{
+    transform: scale(1.01);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sector3 {
+    width: 160px;
+    height:144px;
+    display: grid;
+  }
+  
+  .sector3:hover {
+  background-color: #f9605e;
+  opacity: 0.8;
+  transition-delay: 0.2s;
+  }
+  
+  .ones {
+    background-image: url(../img/8/work_1.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .ones::after {
+    content: 'Project Name';
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    background-color: #f9605e;
+    transition-duration: 1s;
+    opacity: 0;
+    line-height: 21.13px;
+    
+  }
+  .ones:hover::after {
+    opacity: 0.8;
+  }
+  .ones:active::after {
+    background-color: #c13533;
+    transition-duration: 1s;
+  }
+  
+  .twos {
+    background-image: url(..//img/8/work_2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .twos::after {
+    content: 'Project Name';
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    background-color: #f9605e;
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  .twos:hover::after {
+    opacity: 0.8;
+  }
+  .twos:active::after {
+    background-color: #c13533;
+    transition-duration: 1s;
+  }
+  
+  .trees {
+    background-image: url(../img/8/Rectangle\ 17.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .trees::after {
+    content: 'Project Name';
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    background-color: #f9605e;
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  .trees:hover::after {
+    opacity: 0.8;
+  }
+  .trees:active::after {
+    background-color: #c13533;
+    transition-duration: 1s;
+  }
+  
+  .fours {
+    background-image: url(../img/8/work_4.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .fours::after {
+    content: 'Project Name';
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    background-color: #f9605e;
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  .fours:hover::after {
+    opacity: 0.8;
+  }
+  .fours:active::after {
+    background-color: #c13533;
+    transition-duration: 1s;
+  }
+  
+  .fives {
+    background-image: url(../img/8/work_5.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .fives::after {
+    content: 'Project Name';
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    background-color: #f9605e;
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  .fives:hover::after {
+    opacity: 0.8;
+  }
+  .fives:active::after {
+    background-color: #c13533;
+    transition-duration: 1s;
+  }
+  
+  .sixs {
+    background-image: url(../img/8/work_6.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .sixs::after {
+    content: 'Project Name';
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    background-color: #f9605e;
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  .sixs:hover::after {
+    opacity: 0.8;
+  }
+  .sixs:active::after {
+    background-color: #c13533;
+    transition-duration: 1s;
+  }
+  
+  .sevets {
+    background-image: url(../img/8/work_7.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .sevets::after {
+    content: 'Project Name';
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    background-color: #f9605e;
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  .sevets:hover::after {
+    opacity: 0.8;
+  }
+  .sevets:active::after {
+    background-color: #c13533;
+    transition-duration: 1s;
+  }
+  
+  .eights {
+    background-image: url(../img/8/work_8.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .eights::after {
+    content: 'Project Name';
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    padding-top: 50px;
+    background-color: #f9605e;
+    transition-duration: 1s;
+    opacity: 0;
+  }
+  .eights:hover::after {
+    opacity: 0.8;
+  }
+  .eights:active::after {
+    background-color: #c13533;
+    transition-duration: 1s;
+  }
+
+
+
+
+
+
+
+
+
+
+  .section_tree {
+    padding-left: 20px;
+    }
+    
+    
+    h4.backfon {
+      text-transform: uppercase;
+      text-align: center;
+      font-family: 'Raleway';
+      font-weight: 900;
+      font-size: 24px;
+      color: white;
+      margin-top: 110px;
+    }
+    
+    h5.backfon {
+      text-align: center;
+      font-family: 'Raleway';
+      font-weight: 400;
+      font-size: 18px;
+      color: white;
+      margin-top: 20.57px;
+      height: 60px;
+    }
+    
+   
+    .photo {
+      margin-top: 76px;
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 15px;
+
+    }
+    
+    .sector4 {
+      width: 280px;
+      height: 227px;
+      /* object-fit: cover; */
+      overflow: hidden;
+      /* transform: scale(1.01); */
+      
+     }
+
+
+     #recover {
+        width: 100%;
+        height: 100%;
+      }
+    
+    .text {
+      margin-top: 25px;
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 15px;
+      margin-bottom: 20px;
+    }
+    
+    #one {
+      font-size: 18px;
+      font-family:'Raleway';
+      font-weight: 700;
+      line-height: 21.13px;
+      margin-bottom: 0px;
+    }
+    
+    #two {
+      margin-top: 5.29px ;
+      text-transform: uppercase;
+      color: #ff4343;
+      font-size: 14px;
+      font-family:'Raleway';
+      font-weight: 400;
+      line-height: 16.44px;
+    }
+    
+    #tree {
+      font-size: 14px;
+      font-family:'Raleway';
+      font-weight: 400;
+      color: #6C7279;
+      margin-bottom: 0rem;
+      line-height: 16.44px;
+    }
+    
+    
+    
+    
+    .link {
+      display: grid;
+      grid-template-rows: 3fr 3fr 3fr 3fr;
+      grid-column-gap: 15px;
+    }
+    
+    .links1, .links2, .links3, .links4 {
+      display: flex;
+      justify-content: start;
+      margin-top: 37.86px; 
+    }
+    
+    #alt1 {
+      margin-right: 4px;
+      
+    }
+    #recovertrees {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
