@@ -17,55 +17,6 @@ header {
 }
 
 
-/* .fones a {
-    display: block;
-    width: 112px;
-    height: 60px;
-    line-height: 32px;
-    text-decoration: none;
-    color: white;
-    font-size: 13px;
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-}
-
-li.fones {
- height: 64px;
-}
-
-nav li.fones:hover{
-  border-bottom: 3px solid #BABBC5;
-  width: 112px;
-  color: white;
-}
-
-li.fones a:hover {
-  color: white;
-}
-
-nav li.fones:active {
-  border-bottom: 3px solid #e71414;
-  width: 112px;
-  color:#e71414
-}
-
-li.fones a:active {
-  color: #e71414
-}
-
-.fones {
-    width: 112px;
-    height: 28px;
-    margin: 36px 0 36px 0;
-    text-align: center; 
-    font-size: 12px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-} */
 
 .buffer {
     display: flex;
@@ -568,9 +519,9 @@ height: 96%;
     .sector4 {
       width: 280px;
       height: 227px;
-      /* object-fit: cover; */
+                  object-fit: cover; 
       overflow: hidden;
-      /* transform: scale(1.01); */
+     
       
      }
 
