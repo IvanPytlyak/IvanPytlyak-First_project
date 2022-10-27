@@ -483,7 +483,9 @@ height: 96%;
 
 
   .section_tree {
+    margin-top: -15px;
     padding-left: 20px;
+    margin-bottom: 40px;
     }
     
     
@@ -516,21 +518,18 @@ height: 96%;
 
     }
     
-    .sector4 {
+    .sector4 img {
       width: 280px;
       height: 227px;
-                  object-fit: cover; 
-      overflow: hidden;
-     
-      
+      object-fit: cover; 
+      overflow: hidden; 
      }
 
 
-     #recover {
-        width: 100%;
-        height: 100%;
-      }
-    
+   
+
+
+
     .text {
       margin-top: 25px;
       display: grid;
@@ -545,6 +544,8 @@ height: 96%;
       font-weight: 700;
       line-height: 21.13px;
       margin-bottom: 0px;
+      margin-top: 32px;
+      text-transform: capitalize;
     }
     
     #two {
@@ -564,6 +565,7 @@ height: 96%;
       color: #6C7279;
       margin-bottom: 0rem;
       line-height: 16.44px;
+      margin-top: 40px;
     }
     
     
@@ -578,7 +580,7 @@ height: 96%;
     .links1, .links2, .links3, .links4 {
       display: flex;
       justify-content: start;
-      margin-top: 37.86px; 
+      margin-top: 52px; 
     }
     
     #alt1 {
@@ -590,3 +592,181 @@ height: 96%;
       height: 100%;
       object-fit: contain;
     }
+
+
+    .links1 div, .links2 div, .links3 div, .links4 div {
+      margin-right: 4px;
+    }
+
+
+    .sekt1, .sekt2, .sekt3, .sekt4 {
+      margin: 50px 0 0 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .slide {
+      width: 320px;
+      height: 548px;
+    }
+    
+    .d-block {
+      width: 1024px;
+      height: 332px;
+      box-sizing: border-box;
+    }
+    
+    
+    .combinepict {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    
+    .combinepict img {
+      width: 100%;
+      height: 212px;
+      object-fit: cover;
+      overflow: hidden;
+    }
+    
+    #screencarousel {
+      background-image: url(../img/bg\ \(2\).svg);
+      
+    }
+    /* .section_four {
+      padding: 0;
+    }
+     */
+
+    #spancarousel1 {
+      display: block;
+      
+    }
+
+
+    .d-md-block h5 {
+      width: 275px;
+      height: 206px;
+      font-family: 'Cardo';
+      font-style: italic;
+      font-weight: 400;
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      line-height: 32.5px ;
+      text-transform: capitalize;
+      margin-bottom: 0px !important;
+      margin-left: -25px;
+
+      
+    }
+    
+    .d-md-block p {
+      width: 275px;
+      height: 25px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      color: white;
+      font-size: 12px;
+      text-transform: uppercase;
+      text-align: left;
+      line-height: 14.09px;
+      margin-left: -25px;
+      margin-top: -15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .section_five {
+      height: 316px;
+      }
+      
+      .h3block{
+      padding: 111px 0 0 0;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      text-align: center;
+      font-size: 18px;
+      height: 80px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      line-height: 21.13px;
+      width: 280px;
+      margin-left: 20px;
+      }
+      
+      .h5block {
+      max-height: 70px;
+      text-transform: uppercase;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 700;
+      text-align: center;
+      font-size: 13px;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      line-height: 15.26px;
+      width: 280px;
+      margin-left: 20px;
+      }
+      
+      .but2 {
+        display: flex;
+        width: 320px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .button2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Raleway';
+        font-weight: 900;
+        margin-top: 5px;
+        width: 279px;
+        height: 80px;
+        background-color: rgb(255,67,67);
+        color: white;
+        font-size: 18px; 
+        border: 1px solid #e71414;  
+      }
+      
+      .button2:hover {
+        background-color: #e71414;
+        border: 3px solid #e71414;
+        transition-duration: 0.5s;
+        opacity: 1;
+      }
+       
+      .button2:active {
+        background-color: rgb(255,67,67);
+        border: 1px solid rgb(255,67,67);
+        transition-duration: 0.5s;
+        opacity: 1;
+        box-shadow: 0px 0px 15px 1px #e71414;
+      }
+    
