@@ -837,24 +837,44 @@ justify-content: center;
   box-shadow: 0px 0px 15px 1px #e71414;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .footers {
 margin-top: 231px;
 height: 340px;
 }
 
 .fblock {
-  width: 1200px ;
-  margin-left: 152px;
+  width: 370px ;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  padding-right: 45px;
 }
+
+
 
 .sblock {
   display: flex;
-  flex-direction: row;
-  width: 1200px ;
-  margin-left: 152px;
+  flex-direction: column;
+  width: 370px;
 }
+
+.jblock {
+  width: 370px ;
+  display: flex;
+  flex-direction: column;
+  padding-left: 45px;
+}
+
 
 .last1 {
   font-family: 'Raleway';
@@ -867,16 +887,35 @@ height: 340px;
   text-align: center;
 }
 
+
+
 .last2{
   font-family: 'Raleway';
   font-weight: 400;
   font-size: 18px;
   text-transform: capitalize;
-  width: 100%;
   margin-top: 20.71px;
   color: white;
   text-align: center;
+  width: 370px;
+  position: relative;
+  left: -7%;
 }
+
+
+
+.last3{
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 20.71px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+
 
 .twitt {
   display: grid; 
@@ -887,13 +926,14 @@ height: 340px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 #span {
   display: block;
   width: 370px ;
   height: 63px ;
-  margin-left: 18px;
+  text-align: center;
 }
 
 #alt{
@@ -902,9 +942,11 @@ height: 340px;
   margin-top: 13px;
 }
 
-.last2.two{
+.last3.two{
  padding-top: -20px;
   color: #808080;
+  width: 370px;
+  height: 42px;
 }
 
 .newspan {
@@ -917,21 +959,24 @@ height: 340px;
   color: white;
 }
 
-.last2.two{
-  width: 370px;
-  height: 42px;
-}
+
+
 .block3 {
   background-image: url(../img/up.svg);
+  display: flex;
+  flex-direction: row;
+  height: 251px;
+  justify-content: space-evenly;
+  padding: 0 180px 0 180px;
+  
 }
 .block4 {
   height: 90px;
-  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../img/down.svg);
-} */
-
+}
+ */
 
 

@@ -748,97 +748,148 @@ h5.backfon {
   }
 
     
-    .fblock {
-      display: flex;
-      flex-direction: row;
-    }
-    
-    .sblock {
-      display: flex;
-      flex-direction: row;
-    }
-    
-    .last1 {
-      font-family: 'Raleway';
-      font-weight: 700;
-      font-size: 14px;
-      text-transform: uppercase;
-      color: white;
-      width: 100%;
-      margin-top: 46.59px;
-      text-align: center;
-      line-height: 16.44px;
-    }
-    
-    .last2{
-      font-family: 'Raleway';
-      font-weight: 400;
-      font-size: 14px;
-      text-transform: capitalize;
-      width: 100%;
-      color: white;
-      text-align: center;
-      line-height: 16.44px;
-      margin: 10px 20px 0 20px;
-    }
-    
-    .twitt {
-      display: grid; 
-    }
-    
-    .second_link {
-      display: flex; 
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    #span {
-      display: block;
-      width: 315px ;
-      height: 48px ;
+
+
+
+
+     .footers {
+      height: 340px;
+      }
       
-    }
-    
-    #alt{
-      margin-right: 13px;
-      margin-left: 15px;
-      margin-top: 13px;
-    }
-    
-    .last2.two{
-      width: 314px;
-      height: 32px;
-      color: #808080;
-      font-family: 'Raleway';
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 16.44px;
-      text-transform: capitalize;
-    }
-    
-    .newspan {
-      margin-top: 25.47px;
-      color: white; 
-    }
-    
-   
-    .block3 {
-      background-image: url(../img/plan/bg\ \(5\).svg);
-      height: 229.33px;
-    }
-    .block4 {
-      height: 60.7px;
-      margin-top: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: url(../img/plan/bg\ \(4\).svg);
-    }
-    
+      .fblock {
+        width: 370px ;
+        display: flex;
+        flex-direction: column;
+        padding-right: 55px;
+      }
+      
+      
+      
+      .sblock {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+      }
+      
+      .jblock {
+        width: 370px ;
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+      }
+      
+      
+      .last1 {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: white;
+        width: 100%;
+        margin-top: 50.14px;
+        text-align: center;
+        line-height: 16.44px;
+        
+      }
+      
+      
+      
+      .last2{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+        line-height: 16.44px ;
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+        width: 370px;
+        position: relative;
+        left: -8.5%;
+      }
+      
+      
+      
+      .last3{
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+        margin-top: 16.44px;
+        color: white;
+        text-align: center;
+        width: 100%;
+      }
+      
+      
+      
+      .twitt {
+        display: grid; 
+      }
+      
+      .second_link {
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+      
+      #span {
+        display: block;
+        width: 315px ;
+        height: 48px ;
+        text-align: center;
+        margin-left: 23px;
+      }
+      
+      #alt{
+        margin-right: 8px;
+        margin-left: 8px;
+        margin-top: 5px;
+      }
 
-
-
+      #alt img {
+        width: 90%;
+        height: 90%;
+      } 
+      
+      .last3.two{
+        color: #808080;
+        width: 314px;
+        height: 32px;
+      }
+      
+      .newspan {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+        width: 100%;
+        line-height: 16.44px;
+        margin-top: 28.71px;
+        color: white;
+      }
+      
+      
+      
+      .block3 {
+        background-image: url(../img/up.svg);
+        display: flex;
+        flex-direction: row;
+        height: 169px;
+        justify-content: space-evenly;
+        padding: 0 20px 0 20px;
+        
+        
+      }
+      .block4 {
+        height: 60.7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../img/down.svg);
+      }
 
 
   
