@@ -1,18 +1,44 @@
 /* @media screen and (max-width: 320px){} */
 
 
-.burger {
-  background-color: #252B49;
-  width: 55px;
-  height: 55px;
-  z-index: 10;
-} 
 
 
 
 .contaiter_all {
     width: 320px;
     margin: 0 auto;
+    position: relative;
+}
+
+.burger {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  cursor: pointer;
+  background: url(../img/mobile/icon_menu.svg) no-repeat;
+  background-size: contain;
+} 
+
+.open {
+  width: 27px;
+  height: 27px;
+  top: 15px;
+  right: 15px;
+  
+  z-index: 5;
+  position: absolute;
+  
+  background: url(../img/mobile/Group\ 2.svg) no-repeat;
+  background-size: contain;
+}
+
+
+#burgermenu {
+  position: absolute;
+
 }
 
 header {

@@ -124,13 +124,13 @@
     padding: 0;
  }
 
-.burger {
-  display: none;
-} 
+
 
 /* @media screen and (min-width: 1025px) {}
   
-
+.burger {
+  display: none;
+} 
   
 .contaiter_all {
   width: 1510px;
