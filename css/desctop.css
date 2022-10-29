@@ -124,6 +124,9 @@
     padding: 0;
  }
 
+.burger {
+  display: none;
+} 
 
 /* @media screen and (min-width: 1025px) {}
   

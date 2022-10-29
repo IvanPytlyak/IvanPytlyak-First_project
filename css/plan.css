@@ -1,5 +1,10 @@
  @media screen and (max-width: 1024px) and (min-width: 321px){}
 
+ .burger {
+  display: none;
+} 
+
+
 .contaiter_all {
     width: 1024px;
     margin: 0 auto;
