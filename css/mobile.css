@@ -22,6 +22,12 @@
   background-size: contain;
 } 
 
+.opens {
+  display: none;
+}
+
+
+
 
 /* .open {
   width: 27px;
@@ -136,12 +142,11 @@ color: #e71414
 
 
 
-.burger_close .closes  {
-  display: none;
-}
 
 
-.burger_close{
+
+
+.open .burger_close {
   width: 27px;
   height: 27px;
   top: 15px;
@@ -154,12 +159,6 @@ color: #e71414
   background-size: contain;
   cursor: pointer;
 }
-
-.burger_close {
-  display: none;
-}
-
-
 
 
 
