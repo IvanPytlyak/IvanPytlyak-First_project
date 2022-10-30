@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 320px){} */
+@media screen and (max-width: 320px){
 
 
 
@@ -1080,3 +1080,6 @@ height: 96%;
           align-items: center;
           background-image: url(../img/down.svg);
         }
+
+
+      }
