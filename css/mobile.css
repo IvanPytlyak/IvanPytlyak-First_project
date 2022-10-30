@@ -15,14 +15,15 @@
   height: 55px;
   position: absolute;
   top: 0;
-  right: 0;
-  z-index: 5;
+  right: 18px;
+  z-index: 25;
   cursor: pointer;
   background: url(../img/mobile/icon_menu.svg) no-repeat;
   background-size: contain;
 } 
 
-.open {
+
+/* .open {
   width: 27px;
   height: 27px;
   top: 15px;
@@ -33,7 +34,142 @@
   
   background: url(../img/mobile/Group\ 2.svg) no-repeat;
   background-size: contain;
+  
+} */
+
+
+
+/* 
+.open {
+  height: 574px;   
+  border: 1px solid black;
+  z-index: 15;
+} */
+
+
+
+
+
+.open .hpar {
+  display: none;
 }
+.open .but {
+  display: none;
+}
+
+.open .nav {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+.open .fones a {
+  display: block;
+  width: 112px;
+  height: 64px;
+  line-height: 32px;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.open ul {
+display: flex;
+flex-direction: column;
+list-style-type: none;
+padding-left: 0 !important;
+margin:66px 0 0 20px;
+
+}
+
+.open li.fones {
+height: 64px;
+text-align: left;
+width: 300px;
+height: 35px;
+
+}
+
+.open nav li.fones:hover{
+border-bottom: 3px solid #BABBC5;
+width: 100px;
+color: white;
+}
+
+.open li.fones a:hover {
+color: white;
+}
+
+.open nav li.fones:active {
+border-bottom: 3px solid #e71414;
+width: 100px;
+color:#e71414
+}
+
+.open li.fones a:active {
+color: #e71414
+}
+
+.open .fones {
+  width: 280px;
+  height: 63px;
+  margin: 30px 0 0px 0;
+  text-align: center; 
+  font-size: 12px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+
+
+.opens {
+  display: none;
+}
+
+
+
+
+
+.burger_close .closes  {
+  display: none;
+}
+
+
+.burger_close{
+  width: 27px;
+  height: 27px;
+  top: 15px;
+  right: 31px;
+  
+  z-index: 25;
+  position: absolute;
+  
+  background: url(../img/mobile/Group\ 2.svg) no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.burger_close {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #burgermenu {
