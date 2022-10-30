@@ -1,9 +1,5 @@
 @media screen and (max-width: 320px){
 
-
-
-
-
 .contaiter_all {
     width: 320px;
     margin: 0 auto;
@@ -27,35 +23,6 @@
 }
 
 
-
-
-/* .open {
-  width: 27px;
-  height: 27px;
-  top: 15px;
-  right: 15px;
-  
-  z-index: 5;
-  position: absolute;
-  
-  background: url(../img/mobile/Group\ 2.svg) no-repeat;
-  background-size: contain;
-  
-} */
-
-
-
-/* 
-.open {
-  height: 574px;   
-  border: 1px solid black;
-  z-index: 15;
-} */
-
-
-
-
-
 .open .hpar {
   display: none;
 }
@@ -68,14 +35,8 @@
   flex-direction: column;
 }
 
-
-
-
-
-
 .open .fones a {
   display: block;
-  width: 112px;
   height: 64px;
   line-height: 32px;
   text-decoration: none;
@@ -95,14 +56,13 @@ margin:66px 0 0 20px;
 .open li.fones {
 height: 64px;
 text-align: left;
-width: 300px;
+width: fit-content;
 height: 35px;
 
 }
 
 .open nav li.fones:hover{
 border-bottom: 3px solid #BABBC5;
-width: 100px;
 color: white;
 }
 
@@ -112,7 +72,6 @@ color: white;
 
 .open nav li.fones:active {
 border-bottom: 3px solid #e71414;
-width: 100px;
 color:#e71414
 }
 
@@ -131,17 +90,9 @@ color: #e71414
   font-weight: 700;
 }
 
-
-
-
 .opens {
   display: none;
 }
-
-
-
-
-
 
 
 
@@ -159,12 +110,6 @@ color: #e71414
   background-size: contain;
   cursor: pointer;
 }
-
-
-
-
-
-
 
 
 
@@ -190,6 +135,7 @@ header {
 .buffer {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     height: 35.74px;
     position: relative;
 }
@@ -256,7 +202,6 @@ p.headers {
     width: 280px;
     height: 64px;
     margin: 32.74px 0px 0 0px;
-    /* padding: 0 110px 0 110px; */
     line-height: 16.44px;
     font-family: 'Raleway';
     font-weight: 400;
@@ -325,10 +270,6 @@ p.headers {
 
 
 
-
-
-
-
 .container_fcection {
     width: 320px;
     height: 1617px;
@@ -363,8 +304,6 @@ p.headers {
     margin-left: 122.5px;
 }
 
-
-  
 .headerm {
     text-align: center;
     font-family: 'Raleway';
@@ -391,8 +330,6 @@ p.headers {
 width: 96%;
 height: 96%;
 }
-
-
 
 
 
@@ -647,10 +584,6 @@ height: 96%;
 
 
 
-
-
-
-
   .section_tree {
     margin-top: -15px;
     padding-left: 20px;
@@ -678,7 +611,6 @@ height: 96%;
       height: 60px;
     }
     
-   
     .photo {
       margin-top: 76px;
       display: grid;
@@ -737,9 +669,6 @@ height: 96%;
       margin-top: 40px;
     }
     
-    
-    
-    
     .link {
       display: grid;
       grid-template-rows: 3fr 3fr 3fr 3fr;
@@ -777,11 +706,6 @@ height: 96%;
 
 
 
-
-
-
-
-
     .slide {
       width: 320px;
       height: 548px;
@@ -811,16 +735,11 @@ height: 96%;
       background-image: url(../img/bg\ \(2\).svg);
       
     }
-    /* .section_four {
-      padding: 0;
-    }
-     */
-
+ 
     #spancarousel1 {
       display: block;
       
     }
-
 
     .d-md-block h5 {
       width: 275px;
@@ -853,12 +772,6 @@ height: 96%;
       margin-left: -25px;
       margin-top: -15px;
     }
-
-
-
-
-
-
 
 
 
@@ -939,8 +852,6 @@ height: 96%;
         box-shadow: 0px 0px 15px 1px #e71414;
       }
     
-
-
       .block3 {
         background-image: url(../img/up.svg);
         display: flex;
@@ -951,8 +862,6 @@ height: 96%;
         
       }
 
-     
-        
         .fblock {
           width: 280px ;
           display: flex;
@@ -1001,8 +910,6 @@ height: 96%;
           text-align: center;
           width: 280px;
           height: 48px;
-          /* position: relative;
-          left: -8.5%; */
         }
         
         
@@ -1070,9 +977,6 @@ height: 96%;
           color: white;
         }
         
-        
-        
-      
         .block4 {
           height: 90px;
           display: flex;
@@ -1081,5 +985,5 @@ height: 96%;
           background-image: url(../img/down.svg);
         }
 
-
       }
+     

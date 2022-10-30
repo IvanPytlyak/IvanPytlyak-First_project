@@ -65,7 +65,6 @@ li.fones a:active {
     font-weight: 700;
 }
 
-
 .buffer {
     display: flex;
     justify-content: space-between;
@@ -222,8 +221,6 @@ p.headers {
       margin-bottom: 40px;
 }
 
-
-    
 .headerm {
       text-align: center;
       font-family: 'Raleway';
@@ -247,13 +244,6 @@ p.headers {
   width: 96%;
   height: 96%;
 }
-
-
-
-
-
-
-
 
 
 
@@ -555,8 +545,6 @@ h5.backfon {
   display: flex;
 }
 
-
-
 #one {
   font-size: 18px;
   font-family:'Raleway';
@@ -679,11 +667,6 @@ h5.backfon {
 
 
 
-
-
-
-
-
 .section_five {
   height: calc(392px - 9.49px - 20px);
   }
@@ -751,9 +734,6 @@ h5.backfon {
     opacity: 1;
     box-shadow: 0px 0px 15px 1px #e71414;
   }
-
-    
-
 
 
 
